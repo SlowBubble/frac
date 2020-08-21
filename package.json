@@ -1,0 +1,15 @@
+{
+  "name": "frac",
+  "version": "0.1.0",
+  "description": "A library to manipute fractions.",
+  "main": "frac.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fraction",
+    "es6"
+  ],
+  "author": "clubfest",
+  "license": "MIT"
+}
