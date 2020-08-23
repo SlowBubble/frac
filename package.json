@@ -4,7 +4,7 @@
   "description": "A library to manipute fractions.",
   "main": "frac.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node allTests.js"
   },
   "keywords": [
     "fraction",
@@ -13,5 +13,9 @@
   "type": "module",
   "author": "clubfest",
   "homepage": "https://github.com/SlowBubble/frac#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@clubfest/table-test": "^0.2.2"
+  }
 }
