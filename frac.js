@@ -89,33 +89,25 @@ export class Frac {
 
   plus(f2) {
     const f1 = this;
-    if (typeof f2 === 'number') {
-      throw 'Not a fraction';
-    }
+    f2 = typeof f2 === 'number' ? make(f2) : f2;
     return new Frac(f1.numer * f2.denom + f2.numer * f1.denom, f1.denom * f2.denom);
   }
 
   minus(f2) {
     const f1 = this;
-    if (typeof f2 === 'number') {
-      throw 'Not a fraction';
-    }
+    f2 = typeof f2 === 'number' ? make(f2) : f2;
     return f1.plus(f2.negative());
   }
 
   times(f2) {
     const f1 = this;
-    if (typeof f2 === 'number') {
-      throw 'Not a fraction';
-    }
+    f2 = typeof f2 === 'number' ? make(f2) : f2;
     return new Frac(f1.numer * f2.numer, f1.denom * f2.denom);
   }
 
   over(f2) {
     const f1 = this;
-    if (typeof f2 === 'number') {
-      throw 'Not a fraction';
-    }
+    f2 = typeof f2 === 'number' ? make(f2) : f2;
     return new Frac(f1.numer * f2.denom, f1.denom * f2.numer);
   }
 

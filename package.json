@@ -1,6 +1,6 @@
 {
-  "name": "frac",
-  "version": "0.1.0",
+  "name": "@clubfest/frac",
+  "version": "0.2.1",
   "description": "A library to manipute fractions.",
   "main": "frac.js",
   "scripts": {
@@ -10,6 +10,8 @@
     "fraction",
     "es6"
   ],
+  "type": "module",
   "author": "clubfest",
+  "homepage": "https://github.com/SlowBubble/frac#readme",
   "license": "MIT"
 }
