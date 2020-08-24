@@ -16,6 +16,6 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@clubfest/table-test": "^0.2.2"
+    "@clubfest/table-test": "^0.2.4"
   }
 }

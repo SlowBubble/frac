@@ -13,6 +13,13 @@ const testCases = [
     got: frac.make(1, 4).plus(1).toFloat(),
     want: 1.25,
   },
+  {
+    name: 'division should throw exception',
+    gotFunc: _ => {
+      frac.make(1, 2).over(0).toFloat();
+    },
+    wantErrSubstring: "denominator must be non-zero",
+  },
 ];
 
 runTest({testCases: testCases, testName: 'testing frac.js'});
